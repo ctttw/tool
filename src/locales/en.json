@@ -1,0 +1,356 @@
+{
+  "layout": {
+    "title": "Utility Lab",
+    "subtitle": "Tool Collection",
+    "search": "Search tools...",
+    "noTools": "No tools found",
+    "privacy": "Privacy & Copyright",
+    "version": "VERSION",
+    "build": "BUILD"
+  },
+  "nav": {
+    "home": "Home",
+    "zipcode": "Zip Code",
+    "datediff": "Date Diff",
+    "percentage": "Percentage",
+    "unitconvert": "Unit Convert",
+    "discount": "Discount & Fee",
+    "passwordgen": "Password Gen",
+    "qrcode": "QR Code",
+    "pdfmerge": "PDF Merge",
+    "imagecompress": "Image Compress",
+    "privacy": "Privacy & Copyright",
+    "stockfee": "Stock Fee",
+    "bmi": "BMI Calculator",
+    "age": "Age Calculator",
+    "currency": "Currency Converter"
+  },
+  "home": {
+    "title": "Built for Efficiency,\nSecure Local Utilities.",
+    "subtitle": "Practical Web Tools",
+    "desc": "Say goodbye to complex online services and privacy risks. We provide a suite of professional, lightweight, and zero-latency web tools. All data processing and calculations are performed entirely in your browser without uploading to any server, ensuring the fastest response times and 100% data privacy. Your reliable companion for everyday digital tasks.",
+    "tools": {
+      "zipcode": {
+        "title": "Zip Code",
+        "desc": "Quickly query Taiwan 3-digit and 6-digit zip codes."
+      },
+      "datediff": {
+        "title": "Date Diff",
+        "desc": "Calculate days and weeks between two dates."
+      },
+      "percentage": {
+        "title": "Percentage",
+        "desc": "Calculate changes, discounts, taxes and ratios."
+      },
+      "unitconvert": {
+        "title": "Unit Convert",
+        "desc": "Convert between metric and imperial units."
+      },
+      "discount": {
+        "title": "Discount & Fee",
+        "desc": "Calculate shopping discounts and restaurant service fees."
+      },
+      "passwordgen": {
+        "title": "Password Gen",
+        "desc": "Securely generate strong passwords locally."
+      },
+      "qrcode": {
+        "title": "QR Code",
+        "desc": "Quickly convert URLs or text into QR codes."
+      },
+      "pdfmerge": {
+        "title": "PDF Merge",
+        "desc": "Merge multiple PDF files locally."
+      },
+      "imagecompress": {
+        "title": "Image Compress",
+        "desc": "Smart image compression to reduce file size."
+      },
+      "stockfee": {
+        "title": "Stock Fee",
+        "desc": "Calculate stock trading costs, fees, taxes and net profit."
+      },
+      "bmi": {
+        "title": "BMI Calculator",
+        "desc": "Calculate Body Mass Index and evaluate your health status instantly."
+      },
+      "age": {
+        "title": "Age Calculator",
+        "desc": "Calculate precise age in years, months, and days from birthdate."
+      },
+      "currency": {
+        "title": "Currency",
+        "desc": "Real-time global currency exchange rates and conversion."
+      }
+    },
+    "introduction": "About Utility Lab",
+    "local_processing": "100% Local Processing",
+    "zero_tracking": "Zero Server Tracking",
+    "instant_access": "Instant Access & Fluid UX"
+  },
+  "privacy": {
+    "title": "Privacy & Copyright",
+    "subtitle": "Privacy & Copyright",
+    "copyrightTitle": "Copyright Notice",
+    "copyrightText": "All content, interface design, and source code of 'Utility Lab' are protected by copyright law. Unauthorized use for commercial purposes is prohibited.",
+    "privacyTitle": "Privacy Policy",
+    "privacyIntro": "We value your privacy and commit to the following:",
+    "localTitle": "100% Local Processing: ",
+    "localText": "All tools (including calculators, unit converters, image compression, and PDF merging) run entirely within your browser (Client-Side) without server involvement.",
+    "dataTitle": "Zero Data Collection: ",
+    "dataText": "We do not upload, store, intercept, or collect any of your input data, personal settings, or processed files.",
+    "trackTitle": "No Behavioral Tracking: ",
+    "trackText": "This site does not use any intrusive user behavioral trackers or advertising analytics.",
+    "footer": "All data processed locally. Zero data tracking."
+  },
+  "zipcode": {
+    "title": "Zip Code Lookup",
+    "subtitle": "Zip Code Lookup",
+    "desc1": "Provide zip code lookup service for cities, townships, and districts in Taiwan.",
+    "desc2": "Whether you are sending a package, returning online purchases, or building customer records, the correct 3-digit zip code is key to ensuring smooth logistics. This tool organizes the latest standards from Taiwan Post. Simply use the intuitive dropdown menu to select your city and district, and the system will instantly display the corresponding zip code.",
+    "city": "City",
+    "guideTitle": "Zip Code Guide",
+    "guide1": "Select the city from the first dropdown menu, and the second menu will show the districts in that city.",
+    "guide2": "The system has the latest 3-digit zip code mapping for Taiwan built-in.",
+    "district": "District",
+    "noData": "No Data"
+  },
+  "common": {
+    "inputRule": "Input Rule",
+    "calcLogic": "Calculation Logic",
+    "awaiting": "Awaiting Input",
+    "close": "Close",
+    "guide": "Guide"
+  },
+  "age": {
+    "title": "Age Calculator",
+    "subtitle": "Age Calculator",
+    "desc1": "Accurately calculate your actual age. Select birth date and target date, and the system will automatically convert it into precise years, months, and days.",
+    "desc2": "In addition to \"years\", this calculator can also break down the \"total months\" and \"total days\" from birth to the specified date. This is very useful for accurately calculating baby age, planning insurance age, filling out legal documents, or simply knowing how many days you have spent in this world.",
+    "birthDate": "Birth Date",
+    "guideTitle": "Age Calculator Guide",
+    "guide1": "Birth Date: Select your birth date. Target Date: Default is today, but you can select any day in the past or future.",
+    "guide2": "Detailed Age: Calculate complete years, months, and days. Total Months: Years * 12 + remaining months. Total Days: Absolute day difference.",
+    "targetDate": "Target Date",
+    "detailed_age": "DETAILED AGE",
+    "yrs": "YRS",
+    "mos": "MOS",
+    "d": "D",
+    "total_months": "TOTAL MONTHS",
+    "total_days": "TOTAL DAYS"
+  },
+  "bmi": {
+    "title": "BMI Calculator",
+    "subtitle": "Body Mass Index",
+    "desc1": "BMI is an important indicator to assess whether your weight is ideal. Simply input your height and weight, and we will automatically calculate your BMI and provide a preliminary assessment of your health status.",
+    "desc2": "Maintaining a standard BMI helps prevent cardiovascular diseases, diabetes, and other chronic diseases. This tool uses WHO standards to grade your BMI.",
+    "height": "Height (cm)",
+    "weight": "Weight (kg)",
+    "guideTitle": "BMI Guide",
+    "guide1": "Height: Enter your actual height in cm. Weight: Enter your actual weight in kg. BMI = Weight(kg) / [Height(m)]²",
+    "index_result": "INDEX RESULT"
+  },
+  "datediff": {
+    "title": "Date Difference",
+    "subtitle": "Date Difference",
+    "desc1": "Easily calculate the days and weeks between two dates. Whether planning a project schedule, counting down to an anniversary, or tracking time elapsed since a specific event, get accurate results instantly.",
+    "desc2": "Manual date calculation is prone to errors, especially with leap years and months with varying days. This tool automatically handles these complexities, calculating the absolute difference and converting it into \"weeks and days\" format. Supports past and future dates.",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "includeEnd": "Include End Date",
+    "guideTitle": "Date Diff Guide",
+    "guide1": "Please set \"Start Date\" and \"End Date\". Order does not matter. The system automatically calculates absolute difference. Negative sign indicates end date is earlier.",
+    "total_days": "TOTAL DAYS",
+    "guide2": "Both dates are converted to UTC midnight to avoid DST or timezone errors.\nTotal Days: Milliseconds difference divided by 86,400,000.\nWeeks and Days: Total days divided by 7 for weeks, remainder for days.",
+    "approx": "APPROX",
+    "weeks": "WEEKS",
+    "days": "DAYS"
+  },
+  "discount": {
+    "title": "Discount & Fee",
+    "subtitle": "Discount & Fee Calculator",
+    "desc1": "Quickly calculate shopping discounts, restaurant service fees, and final total price.",
+    "desc2": "No more rushing before checkout! Whether it is a department store discount or a restaurant service fee, this tool can help you calculate the exact amount to pay in an instant. You can freely choose whether the service fee is calculated based on the \"original price\" or \"discounted price\".",
+    "original": "Original Price",
+    "guideTitle": "Discount & Fee Guide",
+    "guide1": "Original Price: Enter the original price of the item or meal.",
+    "guide2": "Discount Ratio: Enter the discount percentage (e.g. 80 for 20% off). If no discount, enter 100.",
+    "guide3": "Service Fee %: Enter the service fee percentage.",
+    "guide4": "Fee Base: Choose whether the service fee is based on the original or discounted price.",
+    "placeholder": "e.g. 120",
+    "discount": "Discount (%)",
+    "discountHint": "e.g. 80 = 20% off",
+    "service": "Service Fee (%)",
+    "feeBase": "Fee Base",
+    "feeBaseOriginal": "Original Base",
+    "feeBaseDiscounted": "Discounted Base",
+    "discountedAmount": "Discounted Amount",
+    "serviceFeeLabel": "Service Fee",
+    "totalSaved": "Total Saved",
+    "finalTotal": "Final Total"
+  },
+  "password": {
+    "title": "Password Generator",
+    "subtitle": "Password Generator",
+    "desc1": "Quickly generate high-strength random passwords locally, customize length and character types.",
+    "desc2": "Strong passwords are the first line of defense against account hacking. This tool generates passwords entirely within your browser using cryptographically secure random number generation. We do not store or transmit any passwords.",
+    "length": "Password Length",
+    "guideTitle": "Password Guide",
+    "guide1": "Length: Recommended to be at least 12 characters. Character types: Select uppercase, lowercase, numbers, and symbols based on requirements.",
+    "uppercase": "Include Uppercase (A-Z)",
+    "lowercase": "Include Lowercase (a-z)",
+    "numbers": "Include Numbers (0-9)",
+    "symbols": "Include Symbols (!@#$...)",
+    "regenerate": "Regenerate Password"
+  },
+  "percentage": {
+    "title": "Percentage Calculator",
+    "subtitle": "Percentage Calculator",
+    "desc1": "Provides various practical percentage calculation scenarios. Calculate the percentage of a specific value, the ratio between two values, and the growth or decline rate.",
+    "desc2": "Percentage calculation is ubiquitous in financial statements, performance analysis, or discount calculation. We isolated the three most common scenarios. You can quickly calculate \"discounted price\", \"target achievement ratio\", or \"year-over-year revenue growth\".",
+    "mode": "Calculation Mode",
+    "guideTitle": "Percentage Guide",
+    "guide1": "Enter numeric values in the corresponding fields. Decimals are supported. Empty or non-numeric values will not be calculated.",
+    "mode1": "What percentage of B is A?",
+    "mode2": "What is B% of A?",
+    "mode3": "Percentage change from A to B",
+    "valA": "Value A",
+    "valB": "Value B",
+    "is": "IS",
+    "of": "OF",
+    "from": "FROM",
+    "to": "TO",
+    "guide2": "Scenario 1: Y * (X / 100)\nScenario 2: (A / B) * 100\nScenario 3: (B - A) / A * 100. Positive implies growth (+), negative implies decline (-).",
+    "calc1_title": "WHAT IS % OF VALUE?",
+    "calc2_title": "VALUE A IS WHAT % OF VALUE B?",
+    "calc3_title": "PERCENTAGE CHANGE?"
+  },
+  "qrcode": {
+    "title": "QR Code Generator",
+    "subtitle": "QR Code Generator",
+    "desc1": "Quickly convert URLs or text into a QR Code barcode.",
+    "desc2": "Whether sharing a personal website, contact info, or Wi-Fi password, simply enter the content below and the system will generate the corresponding QR code instantly. Scan directly from the screen or download the PNG. All conversions happen on your device.",
+    "content": "Content",
+    "guideTitle": "QR Code Guide",
+    "guide1": "Enter URL (include http:// or https:// for mobile devices), text, or contact info.",
+    "placeholder": "Enter URL or text...",
+    "colors": "Custom Colors (Optional)",
+    "download": "Download QR Code",
+    "guide2": "Uses qrcode.react to encode string into a matrix drawing on Canvas. No data is sent to external APIs."
+  },
+  "unitconvert": {
+    "title": "Unit Converter",
+    "subtitle": "Unit Converter",
+    "desc1": "Integrates common length, weight, and area units for fast and accurate conversion. Supports bi-directional conversion between metric and imperial units.",
+    "desc2": "Not sure about inch sizes when shopping abroad? Need to convert ounces to grams for recipes? Or square meters to ping for real estate? This tool covers various international standard units with intuitive bi-directional conversion and high-precision floating point calculation.",
+    "category": "Category",
+    "guideTitle": "Unit Converter Guide",
+    "guide1": "Select the category first. Then choose the units to convert from and to, and enter the value.",
+    "length": "Length",
+    "weight": "Weight",
+    "volume": "Volume",
+    "temp": "Temperature",
+    "area": "Area",
+    "input": "Input",
+    "from": "From",
+    "to": "To",
+    "guide2": "The system has built-in conversion factors for various units. Formula: Value × (From Unit Factor) ÷ (To Unit Factor)."
+  },
+  "image": {
+    "title": "Image Compressor",
+    "subtitle": "Image Compressor",
+    "desc1": "Compress images directly on your device using the browser's native Canvas API.",
+    "desc2": "Modern photos are often too large to email or upload. This tool lets you adjust quality and instantly preview the compressed size. All processing is done locally without uploading to any server.",
+    "upload": "Upload Image",
+    "guideTitle": "Image Compressor Guide",
+    "guide1": "Supports JPG, PNG, WebP. Adjust the quality slider below. Lower values mean smaller files but lower quality.",
+    "drag": "Click or drag image here",
+    "support": "Supports JPG, PNG, WebP",
+    "quality": "Quality",
+    "originalSize": "Original Size",
+    "compressedSize": "Compressed",
+    "download": "Download Compressed Image"
+  },
+  "pdfmerge": {
+    "title": "PDF Merger",
+    "subtitle": "PDF Merge Utility",
+    "desc1": "Secure and fast PDF file merging tool. All processing is done in your browser, ensuring sensitive documents are not uploaded to any server.",
+    "desc2": "In office scenarios, we often need to merge multiple reports or scanned documents into a single PDF for sending or archiving. Traditional online tools require uploading to third-party servers, posing data leak risks. This tool uses Web Assembly to process locally.",
+    "upload": "Upload PDFs",
+    "guideTitle": "PDF Merge Guide",
+    "guide1": "1. Click or drag to upload PDFs.\n2. Must select at least 2 files.\n3. Must be valid, unencrypted .pdf files.",
+    "drag": "Click or drag multiple PDF files here",
+    "support": "Supports multi-select and drag-to-reorder",
+    "selected": "Selected Files",
+    "remove": "Remove",
+    "processing": "Processing",
+    "download": "Merge and Download PDF",
+    "select_pdf": "Select or drag PDF files",
+    "local_only": "Local Processing Only",
+    "guide2": "Uses pdf-lib to read PDFs locally and copy pages into a new PDF document. Fully processed in browser without server upload.",
+    "require_two": "Require at least 2 files",
+    "selected_files": "SELECTED FILES"
+  },
+  "stockfee": {
+    "title": "Stock Fee Calculator",
+    "subtitle": "Stock Fee Calculator",
+    "desc1": "Quickly calculate stock trading fees, taxes, and profits.",
+    "desc2": "In addition to the price difference, fees and taxes are important factors affecting profitability. This tool provides a complete calculation of buying and selling costs, supporting custom broker discounts and different tax rates.",
+    "buyPrice": "Buy Price",
+    "sellPrice": "Sell Price",
+    "shares": "Shares",
+    "discount": "Brokerage Discount (%)",
+    "minFee": "Min Brokerage Fee",
+    "taxRate": "Tax Rate",
+    "taxStock": "Stock (0.3%)",
+    "taxEtf": "ETF (0.1%)",
+    "taxDayTrade": "Day Trade (0.15%)",
+    "guideTitle": "Stock Fee Guide",
+    "guide1": "Enter buy/sell prices and shares. Brokerage Discount: e.g. 60 for 40% off. Min Fee: Minimum fee charged by the broker.",
+    "guide2": "Brokerage Fee = Price × Shares × 0.1425% × Discount.\nTax = Sell Price × Shares × Tax Rate.\nNet Profit = Sell Revenue - Buy Cost.",
+    "buyCost": "Total Buy Cost",
+    "sellRevenue": "Total Sell Revenue",
+    "buyFee": "Buy Fee",
+    "sellFee": "Sell Fee",
+    "tax": "Transaction Tax",
+    "netProfit": "Net Profit",
+    "roi": "ROI",
+    "result": "Calculation Result",
+    "price": "Price",
+    "amount": "Amount",
+    "fees": "Fees",
+    "profit": "Profit"
+  },
+  "imagecompress": {
+    "select_image": "Select or drag image file",
+    "local_only": "Local Processing Only",
+    "compressed": "COMPRESSED",
+    "guide1": "1. Click or drag to upload supported formats (JPG, PNG, WEBP, etc).\n2. Enter target max file size in MB. Default is 1MB.",
+    "guide2": "Uses browser-image-compression with Web Workers locally. Dynamically reduces quality or resolution (max 1920px) to hit target size while preserving details.",
+    "desc1": "Efficiently compress image files locally. Customize target file size to save storage space without severely impacting quality, ensuring image privacy.",
+    "desc2": "Modern smartphone or camera photos are often several MBs, making it difficult to upload to sites with capacity limits or send via email. This tool lets you set a target size (e.g., 1MB) and uses browser algorithms to adjust resolution and quality. No cloud upload needed."
+  },
+  "passwordgen": {
+    "guideTitle": "Password Generator Guide",
+    "guide1": "1. Adjust the slider for desired length (8-64).\n2. Select at least one character type: uppercase, lowercase, numbers, symbols.",
+    "guide2": "Uses window.crypto.getRandomValues for cryptographically secure pseudo-random number generation, ensuring high unpredictability, rather than standard Math.random().",
+    "desc1": "Securely generate high-strength passwords randomly on your device.",
+    "desc2": "We use the browser's built-in secure random number generator (Web Crypto API). All passwords are computationally generated locally in real-time, with no risk of upload leaks. Customize length and character types, and copy with one click.",
+    "lowercase": "a-z (Lowercase)",
+    "uppercase": "A-Z (Uppercase)",
+    "numbers": "0-9 (Numbers)",
+    "symbols": "!@#$ (Symbols)",
+    "regenerate": "Regenerate"
+  },
+  "currency": {
+    "title": "Currency Converter",
+    "subtitle": "Real-time Exchange Rates",
+    "desc1": "Get real-time exchange rates for major global currencies and quickly convert between them.",
+    "amount": "Amount",
+    "from": "From",
+    "to": "To",
+    "converted": "Converted",
+    "rate": "Rate",
+    "last_updated": "Last Updated"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "實用多功能工具箱",
+  "description": "包含郵遞區號、BMI、年齡計算、日期差、百分比、單位換算、PDF合併及圖片壓縮的實用工具。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

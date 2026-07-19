@@ -1,0 +1,356 @@
+{
+  "layout": {
+    "title": "Utility Lab",
+    "subtitle": "Tool Collection",
+    "search": "Buscar herramientas...",
+    "noTools": "No se encontraron herramientas",
+    "privacy": "Privacidad y Derechos de Autor",
+    "version": "VERSION",
+    "build": "BUILD"
+  },
+  "nav": {
+    "home": "Inicio",
+    "zipcode": "Código Postal",
+    "datediff": "Diferencia de Fechas",
+    "percentage": "Porcentaje",
+    "unitconvert": "Convertir Unidades",
+    "discount": "Descuentos",
+    "passwordgen": "Generar Contraseña",
+    "qrcode": "Código QR",
+    "pdfmerge": "Unir PDF",
+    "imagecompress": "Comprimir Imagen",
+    "privacy": "Privacidad y Derechos de Autor",
+    "stockfee": "Tarifa de Acciones",
+    "bmi": "Calculadora de IMC",
+    "age": "Calculadora de Edad",
+    "currency": "Conversor Divisas"
+  },
+  "home": {
+    "title": "Diseñado para la Eficiencia,\nHerramientas Locales Seguras.",
+    "subtitle": "Practical Web Tools",
+    "desc": "Diga adiós a los servicios en línea complejos y los riesgos de privacidad. Ofrecemos un conjunto de herramientas web profesionales, ligeras y sin latencia. Todo el procesamiento de datos se realiza en su navegador sin subir nada a ningún servidor, garantizando la máxima velocidad y total privacidad de datos.",
+    "tools": {
+      "zipcode": {
+        "title": "Código Postal",
+        "desc": "Consulta rápida de códigos postales de Taiwán."
+      },
+      "datediff": {
+        "title": "Diferencia de Fechas",
+        "desc": "Calcula días y semanas entre dos fechas."
+      },
+      "percentage": {
+        "title": "Porcentaje",
+        "desc": "Calcula cambios, descuentos, impuestos y proporciones."
+      },
+      "unitconvert": {
+        "title": "Convertir Unidades",
+        "desc": "Convierte entre unidades métricas e imperiales."
+      },
+      "discount": {
+        "title": "Descuentos",
+        "desc": "Calcula descuentos de compras y tarifas de servicio."
+      },
+      "passwordgen": {
+        "title": "Contraseña",
+        "desc": "Genera contraseñas seguras localmente."
+      },
+      "qrcode": {
+        "title": "Código QR",
+        "desc": "Convierte rápidamente URL o texto en códigos QR."
+      },
+      "pdfmerge": {
+        "title": "Unir PDF",
+        "desc": "Une múltiples archivos PDF localmente."
+      },
+      "imagecompress": {
+        "title": "Comprimir Imagen",
+        "desc": "Compresión inteligente de imágenes para reducir su tamaño."
+      },
+      "stockfee": {
+        "title": "Tarifa de Acciones",
+        "desc": "Calcule costos comerciales, tarifas, impuestos y ganancias netas."
+      },
+      "bmi": {
+        "title": "Calculadora de IMC",
+        "desc": "Calcule el Índice de Masa Corporal y evalúe su estado de salud al instante."
+      },
+      "age": {
+        "title": "Calculadora de Edad",
+        "desc": "Calcule la edad precisa en años, meses y días desde la fecha de nacimiento."
+      },
+      "currency": {
+        "title": "Divisas",
+        "desc": "Tipos de cambio y conversión de divisas en tiempo real."
+      }
+    },
+    "introduction": "Acerca de Utility Lab",
+    "local_processing": "100% Procesamiento Local",
+    "zero_tracking": "Cero Seguimiento de Servidor",
+    "instant_access": "Acceso Instantáneo y Fluido"
+  },
+  "privacy": {
+    "title": "Privacidad y Derechos de Autor",
+    "subtitle": "Privacy & Copyright",
+    "copyrightTitle": "Aviso de Derechos de Autor",
+    "copyrightText": "Todo el contenido, el diseño de la interfaz y el código fuente de 'Utility Lab' están protegidos por las leyes de derechos de autor. Se prohíbe el uso no autorizado con fines comerciales.",
+    "privacyTitle": "Política de Privacidad",
+    "privacyIntro": "Valoramos su privacidad y nos comprometemos a lo siguiente:",
+    "localTitle": "Procesamiento 100% Local: ",
+    "localText": "Todas las herramientas se ejecutan completamente dentro de su navegador sin la participación del servidor.",
+    "dataTitle": "Cero Recopilación de Datos: ",
+    "dataText": "No subimos, almacenamos ni recopilamos ninguno de sus datos de entrada.",
+    "trackTitle": "Sin Seguimiento de Comportamiento: ",
+    "trackText": "Este sitio no utiliza rastreadores de comportamiento de usuario invasivos.",
+    "footer": "All data processed locally. Zero data tracking."
+  },
+  "zipcode": {
+    "title": "Búsqueda de Código Postal",
+    "subtitle": "Zip Code Lookup",
+    "desc1": "Proporciona servicio de búsqueda de códigos postales para ciudades, municipios y distritos en Taiwán.",
+    "desc2": "Ya sea que envíe un paquete o cree registros de clientes, el código postal de 3 dígitos correcto es clave. Seleccione su ciudad y distrito, y el sistema mostrará instantáneamente el código postal correspondiente.",
+    "city": "Ciudad",
+    "guideTitle": "Guía de Código Postal",
+    "guide1": "Seleccione la ciudad del primer menú desplegable, y el segundo menú mostrará los distritos.",
+    "guide2": "El sistema tiene integrado el último mapeo de códigos postales de 3 dígitos de Taiwán.",
+    "district": "Distrito",
+    "noData": "Sin Datos"
+  },
+  "common": {
+    "inputRule": "Regla de Entrada",
+    "calcLogic": "Lógica de Cálculo",
+    "awaiting": "Esperando Entrada",
+    "close": "Cerrar",
+    "guide": "Guía"
+  },
+  "age": {
+    "title": "Calculadora de Edad",
+    "subtitle": "Age Calculator",
+    "desc1": "Calcula tu edad real con precisión. Selecciona tu fecha de nacimiento y la fecha objetivo, y el sistema la convertirá automáticamente en años, meses y días.",
+    "desc2": "Además de los \"años\", esta calculadora también puede desglosar los \"meses totales\" y \"días totales\" desde el nacimiento hasta la fecha especificada. Esto es muy útil para calcular con precisión la edad del bebé o planificar seguros.",
+    "birthDate": "Fecha de Nacimiento",
+    "guideTitle": "Guía de la Calculadora de Edad",
+    "guide1": "Fecha de Nacimiento: Selecciona tu fecha de nacimiento. Fecha Objetivo: Por defecto es hoy, pero puedes seleccionar cualquier día en el pasado o en el futuro.",
+    "guide2": "Edad Detallada: Calcula años, meses y días completos. Meses Totales: Años * 12 + meses restantes. Días Totales: Diferencia absoluta de días.",
+    "targetDate": "Fecha Objetivo",
+    "detailed_age": "EDAD DETALLADA",
+    "yrs": "AÑOS",
+    "mos": "MESES",
+    "d": "DÍAS",
+    "total_months": "MESES TOTALES",
+    "total_days": "DÍAS TOTALES"
+  },
+  "bmi": {
+    "title": "Calculadora de IMC",
+    "subtitle": "Body Mass Index",
+    "desc1": "El IMC es un indicador importante para evaluar si su peso es el ideal. Simplemente ingrese su altura y peso, y calcularemos automáticamente su IMC.",
+    "desc2": "Mantener un IMC estándar ayuda a prevenir enfermedades cardiovasculares y diabetes. Esta herramienta utiliza los estándares de la OMS.",
+    "height": "Altura (cm)",
+    "weight": "Peso (kg)",
+    "guideTitle": "Guía de IMC",
+    "guide1": "Altura: Ingrese su altura real en cm. Peso: Ingrese su peso real en kg. IMC = Peso(kg) / [Altura(m)]²",
+    "index_result": "RESULTADO DEL ÍNDICE"
+  },
+  "datediff": {
+    "title": "Diferencia de Fechas",
+    "subtitle": "Date Difference",
+    "desc1": "Calcule fácilmente los días y semanas entre dos fechas. Ya sea planificando un proyecto, contando para un aniversario o haciendo un seguimiento del tiempo, obtenga resultados precisos al instante.",
+    "desc2": "El cálculo manual es propenso a errores. Esta herramienta maneja automáticamente años bisiestos y meses variables, calculando la diferencia absoluta y convirtiéndola al formato \"semanas y días\".",
+    "startDate": "Fecha de Inicio",
+    "endDate": "Fecha de Finalización",
+    "includeEnd": "Incluir Fecha Final",
+    "guideTitle": "Guía de Diferencia de Fechas",
+    "guide1": "Establezca la \"Fecha de inicio\" y la \"Fecha de finalización\". El orden no importa. Un signo negativo indica que la fecha de finalización es anterior.",
+    "total_days": "DÍAS TOTALES",
+    "guide2": "Ambas fechas se convierten a UTC medianoche para evitar errores. Días totales: Diferencia en milisegundos dividida por 86,400,000. Semanas y días: Días totales divididos por 7.",
+    "approx": "APROX",
+    "weeks": "SEMANAS",
+    "days": "DÍAS"
+  },
+  "discount": {
+    "title": "Descuento y Tarifa",
+    "subtitle": "Discount & Fee Calculator",
+    "desc1": "Calcule rápidamente descuentos, tarifas de servicio de restaurantes y el precio total final.",
+    "desc2": "¡No más prisas antes de pagar! Esta herramienta le ayuda a calcular la cantidad exacta a pagar. Puede elegir si la tarifa de servicio se calcula sobre el \"precio original\" o el \"precio con descuento\".",
+    "original": "Precio Original",
+    "guideTitle": "Guía de Descuento y Tarifa",
+    "guide1": "Precio Original: Ingrese el precio original.",
+    "guide2": "Porcentaje de Descuento: Ingrese el porcentaje (ej. 80 para 20% de descuento).",
+    "guide3": "Tarifa de Servicio %: Ingrese el porcentaje de la tarifa.",
+    "guide4": "Base de Tarifa: Elija la base para calcular la tarifa.",
+    "placeholder": "ej. 120",
+    "discount": "Descuento (%)",
+    "discountHint": "ej. 80 = 20% descuento",
+    "service": "Tarifa de Servicio (%)",
+    "feeBase": "Base de Tarifa",
+    "feeBaseOriginal": "Original",
+    "feeBaseDiscounted": "Con Descuento",
+    "discountedAmount": "Monto con Descuento",
+    "serviceFeeLabel": "Tarifa",
+    "totalSaved": "Ahorro Total",
+    "finalTotal": "Total Final"
+  },
+  "password": {
+    "title": "Generador de Contraseñas",
+    "subtitle": "Password Generator",
+    "desc1": "Genere contraseñas seguras localmente, personalice la longitud y los tipos de caracteres.",
+    "desc2": "Las contraseñas seguras son la primera línea de defensa. Esta herramienta genera contraseñas dentro de su navegador utilizando generación de números aleatorios segura criptográficamente.",
+    "length": "Longitud de la Contraseña",
+    "guideTitle": "Guía de Contraseña",
+    "guide1": "Longitud: Se recomiendan al menos 12 caracteres. Tipos de caracteres: Seleccione mayúsculas, minúsculas, números y símbolos.",
+    "uppercase": "Incluir Mayúsculas (A-Z)",
+    "lowercase": "Incluir Minúsculas (a-z)",
+    "numbers": "Incluir Números (0-9)",
+    "symbols": "Incluir Símbolos (!@#$...)",
+    "regenerate": "Regenerar Contraseña"
+  },
+  "percentage": {
+    "title": "Calculadora de Porcentajes",
+    "subtitle": "Percentage Calculator",
+    "desc1": "Proporciona varios escenarios prácticos de cálculo. Calcule el porcentaje de un valor, la proporción entre dos valores y la tasa de crecimiento o disminución.",
+    "desc2": "El cálculo de porcentajes es omnipresente. Aislamos los tres escenarios más comunes. Puede calcular rápidamente \"precio con descuento\", \"ratio de logro\" o \"crecimiento de ingresos interanual\".",
+    "mode": "Modo de Cálculo",
+    "guideTitle": "Guía de Porcentaje",
+    "guide1": "Ingrese valores numéricos. Se admiten decimales. Valores vacíos o no numéricos no se calcularán.",
+    "mode1": "¿Qué porcentaje de B es A?",
+    "mode2": "¿Cuánto es el B% de A?",
+    "mode3": "Cambio porcentual de A a B",
+    "valA": "Valor A",
+    "valB": "Valor B",
+    "is": "ES",
+    "of": "DE",
+    "from": "DE",
+    "to": "A",
+    "guide2": "Caso 1: Y * (X / 100)\nCaso 2: (A / B) * 100\nCaso 3: (B - A) / A * 100. Positivo implica crecimiento (+), negativo implica declive (-).",
+    "calc1_title": "¿CUÁL ES EL % DEL VALOR?",
+    "calc2_title": "¿EL VALOR A ES QUÉ % DEL VALOR B?",
+    "calc3_title": "¿CAMBIO PORCENTUAL?"
+  },
+  "qrcode": {
+    "title": "Generador de Código QR",
+    "subtitle": "QR Code Generator",
+    "desc1": "Convierta rápidamente URL o texto en un código QR.",
+    "desc2": "Simplemente ingrese el contenido a continuación y el sistema generará el código QR al instante. Escanee directamente desde la pantalla o descargue el archivo PNG. Todo ocurre en su dispositivo.",
+    "content": "Contenido",
+    "guideTitle": "Guía de Código QR",
+    "guide1": "Ingrese la URL (incluya http:// o https://), texto o información de contacto.",
+    "placeholder": "Ingrese URL o texto...",
+    "colors": "Colores Personalizados (Opcional)",
+    "download": "Descargar Código QR",
+    "guide2": "Utiliza qrcode.react para codificar la cadena en Canvas. No se envían datos a API externas."
+  },
+  "unitconvert": {
+    "title": "Convertidor de Unidades",
+    "subtitle": "Unit Converter",
+    "desc1": "Integra unidades comunes de longitud, peso y área para una conversión rápida y precisa. Admite la conversión entre el sistema métrico e imperial.",
+    "desc2": "¿No está seguro del tamaño en pulgadas? ¿Necesita convertir onzas a gramos? Esta herramienta cubre las unidades internacionales más comunes con conversión bidireccional intuitiva y de alta precisión.",
+    "category": "Categoría",
+    "guideTitle": "Guía de Convertidor",
+    "guide1": "Seleccione primero la categoría. Luego elija las unidades desde y hacia las cuales convertir, e ingrese el valor.",
+    "length": "Longitud",
+    "weight": "Peso",
+    "volume": "Volumen",
+    "temp": "Temperatura",
+    "area": "Área",
+    "input": "Valor",
+    "from": "De",
+    "to": "A",
+    "guide2": "El sistema tiene factores de conversión incorporados. Fórmula: Valor × (Factor de origen) ÷ (Factor de destino)."
+  },
+  "image": {
+    "title": "Compresor de Imágenes",
+    "subtitle": "Image Compressor",
+    "desc1": "Comprima imágenes directamente en su dispositivo utilizando la API de Canvas nativa del navegador.",
+    "desc2": "Las fotos modernas suelen ser demasiado grandes para enviarlas por correo electrónico. Esta herramienta le permite ajustar la calidad y obtener una vista previa del tamaño al instante.",
+    "upload": "Subir Imagen",
+    "guideTitle": "Guía del Compresor",
+    "guide1": "Soporta JPG, PNG, WebP. Ajuste el control deslizante de calidad. Valores más bajos significan archivos más pequeños pero de menor calidad.",
+    "drag": "Haga clic o arrastre la imagen aquí",
+    "support": "Soporta JPG, PNG, WebP",
+    "quality": "Calidad",
+    "originalSize": "Tamaño Original",
+    "compressedSize": "Comprimido",
+    "download": "Descargar Imagen Comprimida"
+  },
+  "pdfmerge": {
+    "title": "Fusión de PDF",
+    "subtitle": "PDF Merge Utility",
+    "desc1": "Herramienta segura y rápida para fusionar archivos PDF. Todo el procesamiento se realiza en su navegador, garantizando su privacidad.",
+    "desc2": "En la oficina a menudo necesitamos fusionar múltiples informes. Las herramientas en línea requieren subir archivos a servidores externos. Esta herramienta procesa sus archivos localmente en el navegador.",
+    "upload": "Subir PDFs",
+    "guideTitle": "Guía de Fusión de PDF",
+    "guide1": "1. Suba archivos PDF.\n2. Seleccione al menos 2 archivos.\n3. Deben ser archivos .pdf válidos y sin contraseña.",
+    "drag": "Haga clic o arrastre varios archivos PDF aquí",
+    "support": "Admite selección múltiple y arrastrar para reordenar",
+    "selected": "Archivos Seleccionados",
+    "remove": "Eliminar",
+    "processing": "Procesando",
+    "download": "Unir y Descargar PDF",
+    "select_pdf": "Seleccionar o arrastrar archivos PDF",
+    "local_only": "Solo Procesamiento Local",
+    "guide2": "Utiliza pdf-lib para leer archivos PDF localmente y fusionarlos. Procesado en el navegador sin carga al servidor.",
+    "require_two": "Requiere al menos 2 archivos",
+    "selected_files": "ARCHIVOS SELECCIONADOS"
+  },
+  "stockfee": {
+    "title": "Calculadora de Tarifas de Acciones",
+    "subtitle": "Stock Fee Calculator",
+    "desc1": "Calcule rápidamente las tarifas, los impuestos y las ganancias del comercio de acciones.",
+    "desc2": "Además de la diferencia de precios, las tarifas y los impuestos son factores importantes que afectan la rentabilidad. Esta herramienta proporciona un cálculo completo de los costos.",
+    "buyPrice": "Precio de Compra",
+    "sellPrice": "Precio de Venta",
+    "shares": "Acciones",
+    "discount": "Descuento de Corretaje (%)",
+    "minFee": "Tarifa Mínima",
+    "taxRate": "Tasa de Impuesto",
+    "taxStock": "Acciones (0.3%)",
+    "taxEtf": "ETF (0.1%)",
+    "taxDayTrade": "Day Trade (0.15%)",
+    "guideTitle": "Guía de Tarifas de Acciones",
+    "guide1": "Ingrese precios y acciones. Descuento: ej. 60 para 40% de descuento. Tarifa Mínima: Tarifa mínima cobrada por el corredor.",
+    "guide2": "Tarifa = Precio × Acciones × 0.1425% × Descuento.\nImpuesto = Precio de Venta × Acciones × Tasa de Impuesto.\nBeneficio Neto = Ingreso de Venta - Costo de Compra.",
+    "buyCost": "Costo Total de Compra",
+    "sellRevenue": "Ingreso Total de Venta",
+    "buyFee": "Tarifa de Compra",
+    "sellFee": "Tarifa de Venta",
+    "tax": "Impuesto de Transacción",
+    "netProfit": "Beneficio Neto",
+    "roi": "ROI",
+    "result": "Resultado",
+    "price": "Precio",
+    "amount": "Cantidad",
+    "fees": "Tarifas",
+    "profit": "Beneficio"
+  },
+  "imagecompress": {
+    "select_image": "Seleccionar o arrastrar imagen",
+    "local_only": "Solo Procesamiento Local",
+    "compressed": "COMPRIMIDO",
+    "guide1": "1. Suba formatos compatibles (JPG, PNG, WEBP, etc).\n2. Ingrese el tamaño máximo objetivo en MB. El valor predeterminado es 1 MB.",
+    "guide2": "Utiliza browser-image-compression localmente. Reduce dinámicamente la calidad o la resolución para alcanzar el tamaño objetivo.",
+    "desc1": "Comprima archivos de imagen localmente de forma eficiente. Personalice el tamaño para ahorrar espacio sin afectar gravemente la calidad.",
+    "desc2": "Esta herramienta le permite establecer un tamaño objetivo (ej. 1MB) y utiliza algoritmos del navegador para ajustar la resolución y la calidad de la imagen de forma privada, sin subidas a la nube."
+  },
+  "passwordgen": {
+    "guideTitle": "Guía de Generador de Contraseñas",
+    "guide1": "1. Ajuste la longitud deseada (8-64).\n2. Seleccione al menos un tipo: mayúsculas, minúsculas, números, símbolos.",
+    "guide2": "Utiliza window.crypto.getRandomValues para generar números aleatorios criptográficamente seguros en lugar de Math.random().",
+    "desc1": "Genere de forma segura contraseñas aleatorias de alta resistencia en su dispositivo.",
+    "desc2": "Utilizamos el generador de números aleatorios seguro del navegador (Web Crypto API). Todas las contraseñas se generan localmente sin riesgo de fugas. Personalice la longitud y tipos de caracteres.",
+    "lowercase": "a-z (Minúsculas)",
+    "uppercase": "A-Z (Mayúsculas)",
+    "numbers": "0-9 (Números)",
+    "symbols": "!@#$ (Símbolos)",
+    "regenerate": "Regenerar"
+  },
+  "currency": {
+    "title": "Conversor de Divisas",
+    "subtitle": "Tipos de Cambio en Tiempo Real",
+    "desc1": "Obtenga tipos de cambio en tiempo real para las principales divisas y convierta rápidamente entre ellas.",
+    "amount": "Cantidad",
+    "from": "De",
+    "to": "A",
+    "converted": "Convertido",
+    "rate": "Tasa",
+    "last_updated": "Última actualización"
+  }
+}
